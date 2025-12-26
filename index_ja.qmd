@@ -84,28 +84,20 @@ is_japanese <- function(name) {
 
 # Function to convert "Firstname Middlename Lastname" to "Lastname FM"
 format_author_name <- function(name) {
-  # Remove extra whitespace
   name <- trimws(name)
   
-  # If Japanese name, return as is
   if (is_japanese(name)) {
     return(name)
   }
   
-  # Split the name by space
   parts <- strsplit(name, "\\s+")[[1]]
   
   if (length(parts) >= 2) {
-    # Last part is surname, everything else is given/middle names
     surname <- parts[length(parts)]
     given_names <- parts[1:(length(parts)-1)]
-    
-    # Get initials from all given/middle names
     initials <- paste(substr(given_names, 1, 1), collapse = "")
-    
     return(paste0(surname, " ", initials))
   } else {
-    # If only one part, return as is
     return(name)
   }
 }
@@ -125,21 +117,33 @@ pubs <- pubs[order(-as.integer(substr(pubs$publication_date, 1, 4)), na.last = T
 years <- unique(as.integer(substr(pubs$publication_date, 1, 4)))
 years <- sort(years[!is.na(years)], decreasing = TRUE)
 
-# Display each year
+# Start wrapper divs
+cat('<div id="publication-list">\n')
+cat('<div class="visible-pubs">\n\n')
+
+# Display publications
+pub_count <- 0
+
 for (year in years) {
-  # cat("\n## **", year, "年**\n\n", sep = "")
-  
   year_pubs <- pubs[as.integer(substr(pubs$publication_date, 1, 4)) == year, ]
   
   for (i in 1:nrow(year_pubs)) {
+    pub_count <- pub_count + 1
+    
+    # Switch to hidden div after 5 publications
+    if (pub_count == 6) {
+      cat('</div>\n')
+      cat('<div class="hidden-pubs" style="display: none;">\n\n')
+    }
+    
     pub <- year_pubs[i, ]
     
-    # Title (Japanese first, then English)
+    # Title
     title <- pub$paper_title$ja
     if (is.na(title) || is.null(title)) title <- pub$paper_title$en
     if (is.na(title) || is.null(title)) title <- "タイトルなし"
     
-    # Authors - more robust handling
+    # Authors
     authors <- NULL
     if (!is.null(pub$authors$ja[[1]])) {
       authors <- pub$authors$ja[[1]]
@@ -147,25 +151,23 @@ for (year in years) {
       authors <- pub$authors$en[[1]]$name
     }
     
-    # Ensure authors is a character vector
     if (!is.null(authors) && length(authors) > 0) {
       authors <- as.character(unlist(authors))
-      # Format each author name (only English names)
       authors <- sapply(authors, format_author_name, USE.NAMES = FALSE)
       author_text <- paste(authors, collapse = ", ")
     } else {
       author_text <- "著者不明"
     }
     
-    # Make your name bold (handle both Japanese and English versions)
+    # Make your name bold
     author_text <- gsub("村田 峻輔", "**村田 峻輔**", author_text)
     author_text <- gsub("Murata S", "**Murata S**", author_text)
     
-    # Create citation parts
+    # Journal
     journal <- ifelse(is.na(pub$publication_name$en) || is.null(pub$publication_name$en), 
                       "", pub$publication_name$en)
     
-    # Volume/issue/pages (handle NAs)
+    # Volume/issue/pages
     vol_info <- ""
     if (!is.na(pub$volume) && !is.null(pub$volume)) vol_info <- pub$volume
     if (!is.na(pub$number) && !is.null(pub$number)) vol_info <- paste0(vol_info, "(", pub$number, ")")
@@ -177,15 +179,15 @@ for (year in years) {
       vol_info <- paste0(year, ";", vol_info, ":", pages)
     }
     
-    # DOI with hyperlink
+    # DOI
     doi_text <- ""
     if (!is.null(pub$identifiers$doi[[1]]) && length(pub$identifiers$doi[[1]]) > 0) {
       doi_url <- paste0("https://doi.org/", pub$identifiers$doi[[1]][1])
       doi_text <- paste0("[", doi_url, "](", doi_url, "){target='_blank'}")
     }
     
-    # Output citation with HTML line breaks
-    cat(i, ". ", title, "<br>\n", sep = "")
+    # Output citation
+    cat(pub_count, ". ", title, "<br>\n", sep = "")
     cat(author_text, "<br>\n", sep = "")
     if (journal != "") {
       cat("*", journal, "*", sep = "")
@@ -196,6 +198,33 @@ for (year in years) {
     cat("\n")
   }
 }
+
+# Close divs and add button if more than 5 publications
+cat('</div>\n')
+
+if (pub_count > 5) {
+  cat('\n<button id="show-more-btn" onclick="togglePublications()">Show more</button>\n')
+}
+
+cat('</div>\n')
+
+# Add JavaScript
+cat('
+<script>
+function togglePublications() {
+  const hiddenPubs = document.querySelector(".hidden-pubs");
+  const btn = document.getElementById("show-more-btn");
+  
+  if(hiddenPubs.style.display === "none") {
+    hiddenPubs.style.display = "block";
+    btn.textContent = "Show less";
+  } else {
+    hiddenPubs.style.display = "none";
+    btn.textContent = "Show more";
+  }
+}
+</script>
+')
 ```
 
 

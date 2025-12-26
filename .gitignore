@@ -22,3 +22,6 @@
 !styles.css
 
 !_quarto.yml
+.Rproj.user
+
+/.quarto/
