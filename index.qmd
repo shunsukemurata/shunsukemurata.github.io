@@ -1,0 +1,407 @@
+---
+title: "Shunsuke Murata - Research Group"
+sidebar: en
+editor_options: 
+  chunk_output_type: console
+---
+
+# About us {#about}
+
+## Core Research Focus: Exceptional Longevity and Centenarian Studies
+
+Your primary research examines **Swedish centenarians** through comprehensive nationwide population studies, addressing fundamental questions about how people achieve exceptional longevity. Key themes include:
+
+**Disease Trajectories and Health Resilience**
+
+-   Whether centenarians reach 100 by surviving, delaying, or avoiding diseases
+
+-   Disease accumulation patterns and multimorbidity across the life course
+
+-   Health trajectories comparing independent versus dependent centenarians
+
+-   The concept of "compression of morbidity" and preserved homeostatic capacity
+
+**Biomarkers of Exceptional Longevity**
+
+-   Blood biomarker profiles distinguishing centenarians from shorter-lived peers
+
+-   Using the Swedish AMORIS cohort with 35-year longitudinal follow-up
+
+-   Identifying biological signatures associated with reaching 100
+
+**Care Needs and Living Arrangements**
+
+-   Description of the total Swedish centenarian population
+
+-   Healthcare utilization patterns, polypharmacy, and long-term care dependency
+
+-   Comparing independent centenarians living at home versus those requiring formal care
+
+# Member {#member}
+
+## Shunsuke Murata 
+::: {style="display: grid; grid-template-columns: 120px 1fr; gap: 15px; align-items: start;"}
+::: {}
+![](logo/shunsuke.jpg){width=120px}
+:::
+
+::: {}
+Assistant professor  
+Tohoku University  
+1) Frontier Research Institute for Interdisciplinary Sciences  &nbsp;&nbsp;  [Map](https://maps.app.goo.gl/TiPeo2iSwrbYmDjr6){target="_blank"}  
+2) Department of International and Community Oral Health, Graduate School of Dentistry   &nbsp;&nbsp; [Map](https://maps.app.goo.gl/E9tCVmz5oErsnBSw9){target="_blank"}   
+  [E-mail](mailto:shunsuke.murata@ki.se)  
+      
+:::
+:::
+[![](logo/Researchmap.png){width=150px}](https://researchmap.jp/muratas?lang=en){target="_blank"} (CV)  
+  
+[![](logo/Google_Scholar_logo.png){width=150px}](https://scholar.google.com/citations?user=UgbhvSsAAAAJ&hl=en){target="_blank"} &nbsp;&nbsp; [![](logo/ORCID-iD_icon_32x32.png){width=30px}](https://orcid.org/0000-0002-1670-020X){target="_blank"} &nbsp;&nbsp; [![](logo/LI-In-Bug.png){width=30px}](https://www.linkedin.com/in/shunsuke-murata-6631141a6/){target="_blank"}
+
+# Hiring {#hiring}
+
+## JSPS Postdoctoral Fellowship from other countries
+
+We welcome applications from **international researchers** interested in joining our group through the **JSPS Postdoctoral Fellowship from other countries** program.
+
+This prestigious fellowship supports outstanding researchers from abroad to conduct research at Japanese institutions. It provides comprehensive support including:
+
+**Key Features:**
+- Monthly living allowance (highly competitive rates)
+- Research activity allowance
+- International travel expenses
+- Health insurance coverage
+
+For detailed information about eligibility, application procedures, and timeline, please visit:
+
+[**JSPS Postdoctoral Fellowship**](https://www.jsps.go.jp/english/e-fellow/index.html){target="_blank"}
+
+If you are interested in applying or would like to discuss research opportunities, please contact: [shunsuke.murata@ki.se](mailto:shunsuke.murata@ki.se)
+
+# Publications {#publications}
+
+
+# Publications {#publications}
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+#| results: asis
+
+# Install packages if needed
+library(httr)
+library(jsonlite)
+
+# Function to check if name contains Japanese characters
+is_japanese <- function(name) {
+  grepl("[\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FFF]", name)
+}
+
+# Function to convert "Firstname Middlename Lastname" to "Lastname FM"
+format_author_name <- function(name) {
+  name <- trimws(name)
+  
+  if (is_japanese(name)) {
+    return(name)
+  }
+  
+  parts <- strsplit(name, "\\s+")[[1]]
+  
+  if (length(parts) >= 2) {
+    surname <- parts[length(parts)]
+    given_names <- parts[1:(length(parts)-1)]
+    initials <- paste(substr(given_names, 1, 1), collapse = "")
+    return(paste0(surname, " ", initials))
+  } else {
+    return(name)
+  }
+}
+
+# Fetch data from researchmap
+url <- "https://api.researchmap.jp/muratas/published_papers"
+response <- GET(url)
+data <- fromJSON(content(response, "text", encoding = "UTF-8"))
+
+# Get publications
+pubs <- data$items
+
+# Sort by year
+pubs <- pubs[order(-as.integer(substr(pubs$publication_date, 1, 4)), na.last = TRUE), ]
+
+# Get unique years
+years <- unique(as.integer(substr(pubs$publication_date, 1, 4)))
+years <- sort(years[!is.na(years)], decreasing = TRUE)
+
+# Start wrapper divs
+cat('<div id="publication-list">\n')
+cat('<div class="visible-pubs">\n\n')
+
+# Display publications
+pub_count <- 0
+
+for (year in years) {
+  year_pubs <- pubs[as.integer(substr(pubs$publication_date, 1, 4)) == year, ]
+  
+  for (i in 1:nrow(year_pubs)) {
+    pub_count <- pub_count + 1
+    
+    # Switch to hidden div after 5 publications
+    if (pub_count == 6) {
+      cat('</div>\n')
+      cat('<div class="hidden-pubs" style="display: none;">\n\n')
+    }
+    
+    pub <- year_pubs[i, ]
+    
+    # Title
+    title <- pub$paper_title$ja
+    if (is.na(title) || is.null(title)) title <- pub$paper_title$en
+    if (is.na(title) || is.null(title)) title <- "タイトルなし"
+    
+    # Authors
+    authors <- NULL
+    if (!is.null(pub$authors$ja[[1]])) {
+      authors <- pub$authors$ja[[1]]
+    } else if (!is.null(pub$authors$en[[1]])) {
+      authors <- pub$authors$en[[1]]$name
+    }
+    
+    if (!is.null(authors) && length(authors) > 0) {
+      authors <- as.character(unlist(authors))
+      authors <- sapply(authors, format_author_name, USE.NAMES = FALSE)
+      author_text <- paste(authors, collapse = ", ")
+    } else {
+      author_text <- "著者不明"
+    }
+    
+    # Make your name bold
+    author_text <- gsub("村田 峻輔", "**村田 峻輔**", author_text)
+    author_text <- gsub("Murata S", "**Murata S**", author_text)
+    
+    # Journal
+    journal <- ifelse(is.na(pub$publication_name$en) || is.null(pub$publication_name$en), 
+                      "", pub$publication_name$en)
+    
+    # Volume/issue/pages
+    vol_info <- ""
+    if (!is.na(pub$volume) && !is.null(pub$volume)) vol_info <- pub$volume
+    if (!is.na(pub$number) && !is.null(pub$number)) vol_info <- paste0(vol_info, "(", pub$number, ")")
+    if (!is.na(pub$starting_page) && !is.null(pub$starting_page)) {
+      pages <- pub$starting_page
+      if (!is.na(pub$ending_page) && !is.null(pub$ending_page)) {
+        pages <- paste0(pages, "-", pub$ending_page)
+      }
+      vol_info <- paste0(year, ";", vol_info, ":", pages)
+    }
+    
+    # DOI
+    doi_text <- ""
+    if (!is.null(pub$identifiers$doi[[1]]) && length(pub$identifiers$doi[[1]]) > 0) {
+      doi_url <- paste0("https://doi.org/", pub$identifiers$doi[[1]][1])
+      doi_text <- paste0("[", doi_url, "](", doi_url, "){target='_blank'}")
+    }
+    
+    # Output citation
+    cat(pub_count, ". ", title, "<br>\n", sep = "")
+    cat(author_text, "<br>\n", sep = "")
+    if (journal != "") {
+      cat("*", journal, "*", sep = "")
+      if (vol_info != "") cat(", ", vol_info, sep = "")
+      cat("<br>\n")
+    }
+    if (doi_text != "") cat(doi_text, "<br>\n", sep = "")
+    cat("\n")
+  }
+}
+
+# Close divs and add button if more than 5 publications
+cat('</div>\n')
+
+if (pub_count > 5) {
+  cat('\n<button id="show-more-btn" onclick="togglePublications()">Show more</button>\n')
+}
+
+cat('</div>\n')
+
+# Add JavaScript
+cat('
+<script>
+function togglePublications() {
+  const hiddenPubs = document.querySelector(".hidden-pubs");
+  const btn = document.getElementById("show-more-btn");
+  
+  if(hiddenPubs.style.display === "none") {
+    hiddenPubs.style.display = "block";
+    btn.textContent = "Show less";
+  } else {
+    hiddenPubs.style.display = "none";
+    btn.textContent = "Show more";
+  }
+}
+</script>
+')
+```
+
+
+
+```{r}
+# #| echo: false
+# #| message: false
+# #| warning: false
+# #| results: asis
+# 
+# # Install packages if needed
+# library(httr)
+# library(jsonlite)
+# 
+# # Function to check if name contains Japanese characters
+# is_japanese <- function(name) {
+#   grepl("[\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FFF]", name)
+# }
+# 
+# # Function to convert "Firstname Middlename Lastname" to "Lastname FM"
+# format_author_name <- function(name) {
+#   # Remove extra whitespace
+#   name <- trimws(name)
+#   
+#   # If Japanese name, return as is
+#   if (is_japanese(name)) {
+#     return(name)
+#   }
+#   
+#   # Split the name by space
+#   parts <- strsplit(name, "\\s+")[[1]]
+#   
+#   if (length(parts) >= 2) {
+#     # Last part is surname, everything else is given/middle names
+#     surname <- parts[length(parts)]
+#     given_names <- parts[1:(length(parts)-1)]
+#     
+#     # Get initials from all given/middle names
+#     initials <- paste(substr(given_names, 1, 1), collapse = "")
+#     
+#     return(paste0(surname, " ", initials))
+#   } else {
+#     # If only one part, return as is
+#     return(name)
+#   }
+# }
+# 
+# # Fetch data from researchmap
+# url <- "https://api.researchmap.jp/muratas/published_papers"
+# response <- GET(url)
+# data <- fromJSON(content(response, "text", encoding = "UTF-8"))
+# 
+# # Get publications
+# pubs <- data$items
+# 
+# # Sort by year
+# pubs <- pubs[order(-as.integer(substr(pubs$publication_date, 1, 4)), na.last = TRUE), ]
+# 
+# # Get unique years
+# years <- unique(as.integer(substr(pubs$publication_date, 1, 4)))
+# years <- sort(years[!is.na(years)], decreasing = TRUE)
+# 
+# # Display each year
+# for (year in years) {
+#   # cat("\n## **", year, "年**\n\n", sep = "")
+#   
+#   year_pubs <- pubs[as.integer(substr(pubs$publication_date, 1, 4)) == year, ]
+#   
+#   for (i in 1:nrow(year_pubs)) {
+#     pub <- year_pubs[i, ]
+#     
+#     # Title (Japanese first, then English)
+#     title <- pub$paper_title$ja
+#     if (is.na(title) || is.null(title)) title <- pub$paper_title$en
+#     if (is.na(title) || is.null(title)) title <- "タイトルなし"
+#     
+#     # Authors - more robust handling
+#     authors <- NULL
+#     if (!is.null(pub$authors$ja[[1]])) {
+#       authors <- pub$authors$ja[[1]]
+#     } else if (!is.null(pub$authors$en[[1]])) {
+#       authors <- pub$authors$en[[1]]$name
+#     }
+#     
+#     # Ensure authors is a character vector
+#     if (!is.null(authors) && length(authors) > 0) {
+#       authors <- as.character(unlist(authors))
+#       # Format each author name (only English names)
+#       authors <- sapply(authors, format_author_name, USE.NAMES = FALSE)
+#       author_text <- paste(authors, collapse = ", ")
+#     } else {
+#       author_text <- "著者不明"
+#     }
+#     
+#     # Make your name bold (handle both Japanese and English versions)
+#     author_text <- gsub("村田 峻輔", "**村田 峻輔**", author_text)
+#     author_text <- gsub("Murata S", "**Murata S**", author_text)
+#     
+#     # Create citation parts
+#     journal <- ifelse(is.na(pub$publication_name$en) || is.null(pub$publication_name$en), 
+#                       "", pub$publication_name$en)
+#     
+#     # Volume/issue/pages (handle NAs)
+#     vol_info <- ""
+#     if (!is.na(pub$volume) && !is.null(pub$volume)) vol_info <- pub$volume
+#     if (!is.na(pub$number) && !is.null(pub$number)) vol_info <- paste0(vol_info, "(", pub$number, ")")
+#     if (!is.na(pub$starting_page) && !is.null(pub$starting_page)) {
+#       pages <- pub$starting_page
+#       if (!is.na(pub$ending_page) && !is.null(pub$ending_page)) {
+#         pages <- paste0(pages, "-", pub$ending_page)
+#       }
+#       vol_info <- paste0(year, ";", vol_info, ":", pages)
+#     }
+#     
+#     # DOI with hyperlink
+#     doi_text <- ""
+#     if (!is.null(pub$identifiers$doi[[1]]) && length(pub$identifiers$doi[[1]]) > 0) {
+#       doi_url <- paste0("https://doi.org/", pub$identifiers$doi[[1]][1])
+#       doi_text <- paste0("[", doi_url, "](", doi_url, "){target='_blank'}")
+#     }
+#     
+#     # Output citation with HTML line breaks
+#     cat(i, ". ", title, "<br>\n", sep = "")
+#     cat(author_text, "<br>\n", sep = "")
+#     if (journal != "") {
+#       cat("*", journal, "*", sep = "")
+#       if (vol_info != "") cat(", ", vol_info, sep = "")
+#       cat("<br>\n")
+#     }
+#     if (doi_text != "") cat(doi_text, "<br>\n", sep = "")
+#     cat("\n")
+#   }
+# }
+```
+
+
+# Funding {#funding}
+
+(@)  Comparison of older adults' characteristics, healthcare, and longevity between Sweden and Japan: Analyses of two database cohorts.
+Japan Society for the Promotion of Science:  Overseas Research Fellowships
+Feb, 2024 - Present Shunsuke Murata
+
+(@)  Effects of using long-term care services for older adults with dementia.
+Japan Society for the Promotion of Science:  Grant-in-Aid for Early-Career Scientists
+Apr, 2020 - Mar, 2023 Shunsuke Murata
+
+(@)  Cardiovascular disease in cancer survivors: cancer-specific risk factors and rehabilitation effectiveness.
+Japan Society for the Promotion of Science:  Grant-in-Aid for JSPS Fellows
+Apr, 2020 - Mar, 2023 Shunsuke Murata
+
+(@)  Incidence and Mortality of Dementia-Related Missing and Their Determinants: An Ecological Study in Japan.
+Osaka Gas Group Welfare Foundation
+Apr, 2020 - Mar, 2021
+
+(@)  Cardiovascular disease in cancer survivors: descriptative study and rehabilitation effects.
+Japan Society for the Promotion of Science:  Grant-in-Aid for Research Activity Start-up
+Aug, 2019 - Mar, 2020 Shunsuke Murata
+
+(@)  Non-pharmacological interventions chronic musculoskeletal pain in older adults.
+Japan Society for the Promotion of Science:  Grant-in-Aid for JSPS Fellows
+Apr, 2017 - Mar, 2019 Shunsuke Murata
+
+(@)  Association between physical activity and chronic musculoskeletal pain in community-dwelling older adults
+Osaka Gas Group Welfare Foundation
+Apr, 2017 - Mar, 2018 Shunsuke Murata

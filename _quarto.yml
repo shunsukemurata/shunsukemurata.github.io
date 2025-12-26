@@ -1,0 +1,60 @@
+project:
+  type: website
+
+website:
+  title: "Shunsuke Murata - Tohoku university"
+  # site-url: https://github.com/shunsukemurata
+  page-navigation: false
+  favicon: "logo/logo_j_p.png"
+  google-analytics: "G-YP5LFKST0E"
+  search: false 
+  navbar:
+    background: "#3e1485" # hex color
+    foreground: "white"
+    logo: "logo/logo_j_p.png"
+    right:
+      - icon: github
+        href: https://github.com/shunsukemurata
+        aria-label: Quarto GitHub
+      - text: "EN"
+        href: index.qmd
+      - text: "JA"
+        href: index_ja.qmd
+        
+  sidebar:
+    - id: en
+      style: "docked"
+      contents:
+        - text: "About us"
+          href: index.qmd#about
+        - text: "Member"
+          href: index.qmd#member
+        - text: "Hiring"
+          href: index.qmd#hiring
+        - text: "Publications"
+          href: index.qmd#publications
+        - text: "Funding"
+          href: index.qmd#funding
+    - id: ja
+      style: "docked"
+      contents:
+        - text: "研究概要"
+          href: index_ja.qmd#about
+        - text: "メンバー"
+          href: index_ja.qmd#member
+        - text: "募集"
+          href: index_ja.qmd#hiring
+        - text: "研究業績"
+          href: index_ja.qmd#publications
+        - text: "研究費"
+          href: index_ja.qmd#funding
+
+format:
+  html:
+    theme:
+      light: flatly
+      # dark: darkly
+    css: styles.css
+    toc: false
+
+editor: visual
