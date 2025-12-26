@@ -1,0 +1,24 @@
+# Ignore everything by default
+*
+
+# Allow directories so whitelisted folders/files can be tracked
+!*/
+
+# Keep this file tracked
+!.gitignore
+
+# Whitelist the r_code folder and its contents
+!r_code/
+!r_code/**
+
+# Whitelist RStudio project files
+!*.Rproj
+
+# Whitelist Quarto and analysis files
+!index.qmd
+
+!index_ja.qmd
+
+!styles.css
+
+!_quarto.yml
