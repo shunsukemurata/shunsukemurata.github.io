@@ -5,37 +5,27 @@ editor_options:
   chunk_output_type: console
 ---
 
-# About us {#about}
+# About us {#about} 
 
-## Core Research Focus: Exceptional Longevity and Centenarian Studies
+Our research focuses on aging epidemiology with an emphasis on understanding longevity, preventive strategies, and management of age-related health challenges in older populations. We conduct population-based epidemiological studies that examine the complex interplay between aging, chronic conditions, and healthcare outcomes.
 
-Your primary research examines **Swedish centenarians** through comprehensive nationwide population studies, addressing fundamental questions about how people achieve exceptional longevity. Key themes include:
+Our work aims to identify modifiable factors that contribute to healthy aging and inform evidence-based interventions for improving quality of life in older adults. We welcome collaborations with researchers having diverse backgrounds.
 
-**Disease Trajectories and Health Resilience**
+## Longevity and Healthy Longevity
 
--   Whether centenarians reach 100 by surviving, delaying, or avoiding diseases
+We investigate factors associated with exceptional longevity and healthy aging through population-based cohort studies. Using Swedish national registers and long-term follow-up data, we examine biomarkers, health trajectories, and living arrangements in the oldest-old population. This research aims to identify modifiable factors that contribute to extended lifespan while maintaining functional independence.
 
--   Disease accumulation patterns and multimorbidity across the life course
+## Issues in Older Adults, Especially Dementia
 
--   Health trajectories comparing independent versus dependent centenarians
+We investigate critical health and safety challenges that affect quality of life and independence in the older population. Our research addresses both chronic conditions such as musculoskeletal pain and its impact on disability and cognitive function, as well as acute safety risks including dementia-related missing and wandering behavior.
 
--   The concept of "compression of morbidity" and preserved homeostatic capacity
+A major focus is dementia research, where we examine disease progression and optimize care delivery for individuals living with dementia. We study functional decline and body composition changes in Alzheimer's disease, as well as the effects of healthcare utilization and long-term care services on patient outcomes. These studies aim to identify modifiable risk factors and inform evidence-based interventions to maintain safety, independence, and quality of life in older adults. This work has important implications for dementia care strategies, caregiver support, and health policies.
 
-**Biomarkers of Exceptional Longevity**
+---
 
--   Blood biomarker profiles distinguishing centenarians from shorter-lived peers
-
--   Using the Swedish AMORIS cohort with 35-year longitudinal follow-up
-
--   Identifying biological signatures associated with reaching 100
-
-**Care Needs and Living Arrangements**
-
--   Description of the total Swedish centenarian population
-
--   Healthcare utilization patterns, polypharmacy, and long-term care dependency
-
--   Comparing independent centenarians living at home versus those requiring formal care
+::: {style="font-size: 1.3rem;"}
+**Keywords**: Longevity; Healthy longevity; Dementia; Disability; Long-term care; Epidemiology; Demography
+:::
 
 # Member {#member}
 
