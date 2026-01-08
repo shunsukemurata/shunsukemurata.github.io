@@ -7,21 +7,25 @@ editor_options:
 
 # About us {#about} 
 
-Our research focuses on aging epidemiology with an emphasis on understanding longevity, preventive strategies, and management of age-related health challenges in older populations. We conduct population-based epidemiological studies that examine the complex interplay between aging, chronic conditions, and healthcare outcomes.
+Our research focuses on aging epidemiology, with an emphasis on understanding longevity, preventive strategies for disease and disability, and the management of age-related health issues in older populations. 
 
-Our work aims to identify modifiable factors that contribute to healthy aging and inform evidence-based interventions for improving quality of life in older adults. We welcome collaborations with researchers having diverse backgrounds.
+Our work uses epidemiological methods, including causal inference, and demographic approaches, analyzing various data sources such as administrative records (registers and healthcare insurance data), cohort data, and open data as long as they fit our research theme.
 
-## Longevity and Healthy Longevity
+We welcome collaborations with researchers having diverse backgrounds.
 
-We investigate factors associated with exceptional longevity and healthy aging through population-based cohort studies. Using Swedish national registers and long-term follow-up data, we examine biomarkers, health trajectories, and living arrangements in the oldest-old population. This research aims to identify modifiable factors that contribute to extended lifespan while maintaining functional independence.
+::: {style="font-size: 1.3rem;"}
+**Longevity and Healthy Longevity**
+:::
 
-## Issues in Older Adults, Especially Dementia
+ We investigate the determinants of longevity and healthy aging through comparative international studies and within-country analyses. Current research projects include comparing older adults' health and healthcare between Japan and Sweden, and examining the heterogeneity of healthy longevity within Japan.
 
-We investigate critical health and safety challenges that affect quality of life and independence in the older population. Our research addresses both chronic conditions such as musculoskeletal pain and its impact on disability and cognitive function, as well as acute safety risks including dementia-related missing and wandering behavior.
+::: {style="font-size: 1.3rem;"}
+**Issues in Older Adults, Especially Dementia**
+:::
 
-A major focus is dementia research, where we examine disease progression and optimize care delivery for individuals living with dementia. We study functional decline and body composition changes in Alzheimer's disease, as well as the effects of healthcare utilization and long-term care services on patient outcomes. These studies aim to identify modifiable risk factors and inform evidence-based interventions to maintain safety, independence, and quality of life in older adults. This work has important implications for dementia care strategies, caregiver support, and health policies.
+We investigate critical health and safety challenges that affect quality of life and independence in the older population. Our research addresses both chronic conditions such as dementia and musculoskeletal pain and its impact on disability and cognitive function, as well as safety risks including dementia-related missing and wandering behavior.
 
----
+One of the major focuses is dementia research, where we examine disease progression and optimize care delivery for individuals living with dementia. This work has important implications for dementia care strategies, caregiver support, and health policies.
 
 ::: {style="font-size: 1.3rem;"}
 **Keywords**: Longevity; Healthy longevity; Dementia; Disability; Long-term care; Epidemiology; Demography
@@ -50,23 +54,25 @@ Tohoku University
 
 # Hiring {#hiring}
 
-## JSPS Postdoctoral Fellowship from other countries
+::: {style="font-size: 1.3rem;"}
+**JSPS Postdoctoral Fellowship from other countries**
+:::
 
 We welcome applications from **international researchers** interested in joining our group through the **JSPS Postdoctoral Fellowship from other countries** program.
 
 This prestigious fellowship supports outstanding researchers from abroad to conduct research at Japanese institutions. It provides comprehensive support including:
 
-**Key Features:**
-- Monthly living allowance (highly competitive rates)
-- Research activity allowance
-- International travel expenses
-- Health insurance coverage
+**Key Features:**  
+- Monthly living allowance (highly competitive rates)  
+- Research activity allowance  
+- International travel expenses  
+- Health insurance coverage  
 
 For detailed information about eligibility, application procedures, and timeline, please visit:
 
 [**JSPS Postdoctoral Fellowship**](https://www.jsps.go.jp/english/e-fellow/index.html){target="_blank"}
 
-If you are interested in applying or would like to discuss research opportunities, please contact: [shunsuke.murata@ki.se](mailto:shunsuke.murata@ki.se)
+If you are interested in applying or would like to discuss research opportunities, please contact Shunsuke Murata.
 
 # Publications {#publications}
 
@@ -234,28 +240,28 @@ function togglePublications() {
 
 (@)  Comparison of older adults' characteristics, healthcare, and longevity between Sweden and Japan: Analyses of two database cohorts.
 Japan Society for the Promotion of Science:  Overseas Research Fellowships
-Feb, 2024 - Present Shunsuke Murata
+Feb, 2024 - Present, Shunsuke Murata
 
 (@)  Effects of using long-term care services for older adults with dementia.
 Japan Society for the Promotion of Science:  Grant-in-Aid for Early-Career Scientists
-Apr, 2020 - Mar, 2023 Shunsuke Murata
+Apr, 2020 - Mar, 2023, Shunsuke Murata
 
 (@)  Cardiovascular disease in cancer survivors: cancer-specific risk factors and rehabilitation effectiveness.
 Japan Society for the Promotion of Science:  Grant-in-Aid for JSPS Fellows
-Apr, 2020 - Mar, 2023 Shunsuke Murata
+Apr, 2020 - Mar, 2023, Shunsuke Murata
 
 (@)  Incidence and Mortality of Dementia-Related Missing and Their Determinants: An Ecological Study in Japan.
 Osaka Gas Group Welfare Foundation
-Apr, 2020 - Mar, 2021 Shunsuke Murata
+Apr, 2020 - Mar, 2021, Shunsuke Murata
 
 (@)  Cardiovascular disease in cancer survivors: descriptative study and rehabilitation effects.
 Japan Society for the Promotion of Science:  Grant-in-Aid for Research Activity Start-up
-Aug, 2019 - Mar, 2020 Shunsuke Murata
+Aug, 2019 - Mar, 2020, Shunsuke Murata
 
 (@)  Non-pharmacological interventions chronic musculoskeletal pain in older adults.
 Japan Society for the Promotion of Science:  Grant-in-Aid for JSPS Fellows
-Apr, 2017 - Mar, 2019 Shunsuke Murata
+Apr, 2017 - Mar, 2019, Shunsuke Murata
 
 (@)  Association between physical activity and chronic musculoskeletal pain in community-dwelling older adults
 Osaka Gas Group Welfare Foundation
-Apr, 2017 - Mar, 2018 Shunsuke Murata
+Apr, 2017 - Mar, 2018, Shunsuke Murata

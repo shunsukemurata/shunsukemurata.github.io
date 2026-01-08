@@ -7,21 +7,25 @@ editor_options:
 
 # 研究概要 {#about}
 
-老年疫学を専門とし、長寿、疾病予防、高齢者における健康課題への対処を研究テーマとしています。加齢、慢性疾患、医療アウトカムの関連性について、集団ベースの疫学研究を実施しています。
+老年疫学を専門とし、長寿、疾病・障害予防、高齢者における健康課題への対応を中心に研究を行っています。
 
-健康寿命の延伸につながる因子の解明と、高齢者のQOL向上に資するエビデンスに基づく介入方法の提案を目指しています。多様なバックグラウンドを持つ研究者との共同研究を歓迎しています。
+因果推論や人口学的手法を含む多様な疫学手法を用いて、レジスター・医療保険などの行政データ、コホートデータ、オープンデータなど、研究テーマに適した様々なデータソースを活用しています。
 
-## 長寿と健康寿命
+多様なバックグラウンドを持つ研究者との共同研究を歓迎しています。
 
-集団コホート研究を通じて、長寿および健康的な老化に関連する要因を探索しています。スウェーデンの国民レジスターや長期追跡データを用いて、超高齢者集団におけるバイオマーカー、健康軌跡、生活状況を検討しています。機能的自立を保ちながら寿命を延ばすことに寄与する修正可能な要因の同定を目的としています。
+::: {style="font-size: 1.3rem;"}
+**長寿と健康寿命**
+:::
 
-## 高齢者の健康課題、特に認知症
+国際比較研究と国内での地域間比較を通じて、長寿および健康的な老化の決定要因を探索しています。現在進行中の研究プロジェクトとして、日本とスウェーデンにおける高齢者の健康状態と医療の比較研究、および日本国内における健康寿命の地域差に関する研究を実施しています。
 
-高齢者のQOLと自立に影響を与える健康問題および安全上の課題について研究しています。慢性的な筋骨格系疼痛が障害や認知機能に及ぼす影響、認知症に関連する行方不明や徘徊行動といった急性の安全リスクを対象としています。
+::: {style="font-size: 1.3rem;"}
+**高齢者の健康課題、特に認知症**
+:::
 
-認知症研究では、疾患の進行理解とケア提供の最適化に重点を置いています。アルツハイマー病における機能低下と体組成変化、医療利用や長期ケアサービスが患者アウトカムに与える効果を検討しています。これらの研究は、修正可能なリスク要因を特定し、高齢者の安全、自立、QOL維持のためのエビデンスに基づく介入方法の構築を目指しています。認知症ケア戦略、介護者支援、保健政策への示唆を提供します。
+高齢者のQOLと自立に影響を与える健康上・安全上の重要課題について研究しています。認知症や筋骨格系疼痛などの慢性疾患が障害や認知機能に及ぼす影響、認知症に関連する行方不明や徘徊行動といった安全リスクなどを対象としています。
 
----
+特に力を入れているのが認知症研究であり、疾患の進行過程の解明と、認知症とともに生きる人々へのケア提供の最適化を目指しています。これらの研究は、認知症ケア戦略、介護者支援、保健医療政策に重要な示唆を提供します。
 
 ::: {style="font-size: 1.3rem;"}
 **Keywords**: Longevity; Healthy longevity; Dementia; Disability; Long-term care; Epidemiology; Demography
@@ -42,25 +46,29 @@ Frontier Research Institute for Interdisciplinary Sciences
 [E-mail](mailto:shunsuke.murata@ki.se)
 :::
 :::
-[![](logo/Researchmap.png){width=150px}](https://researchmap.jp/muratas?lang=en){target="_blank"}  &nbsp;&nbsp; [![](logo/Google_Scholar_logo.png){width=150px}](https://scholar.google.com/citations?user=UgbhvSsAAAAJ&hl=en){target="_blank"} &nbsp;&nbsp; [![](logo/ORCID-iD_icon_32x32.png){width=30px}](https://orcid.org/0000-0002-1670-020X){target="_blank"} &nbsp;&nbsp; [![](logo/LI-In-Bug.png){width=30px}](https://www.linkedin.com/in/shunsuke-murata-6631141a6/){target="_blank"}
+[![](logo/Researchmap.png){width=150px}](https://researchmap.jp/muratas?lang=ja){target="_blank"}  &nbsp;&nbsp; [![](logo/Google_Scholar_logo.png){width=150px}](https://scholar.google.com/citations?user=UgbhvSsAAAAJ&hl=en){target="_blank"} &nbsp;&nbsp; [![](logo/ORCID-iD_icon_32x32.png){width=30px}](https://orcid.org/0000-0002-1670-020X){target="_blank"} &nbsp;&nbsp; [![](logo/LI-In-Bug.png){width=30px}](https://www.linkedin.com/in/shunsuke-murata-6631141a6/){target="_blank"}
 
 # 募集 {#hiring}
 
-## 日本学術振興会（JSPS）特別研究員制度
+::: {style="font-size: 1.3rem;"}
+**日本学術振興会（JSPS）特別研究員制度**
+:::
 
 当研究室では、**日本学術振興会（JSPS）特別研究員制度**を通じた研究員の募集を行っています。
 
 JSPS特別研究員制度は、優秀な研究者が日本の研究機関で研究を行うことを支援する、わが国を代表する競争的研究資金制度です。
 
-**主な特徴：**
-- 生活費に充当する競争的な月額奨励金
-- 研究活動を支援する研究費
+**主な特徴：**   
+- 生活費に充当する競争的な月額奨励金  
+- 研究活動を支援する研究費  
 
 詳細な応募資格、申請手続き、応募期限については、日本学術振興会の公式ウェブサイトをご覧ください：
 
 [**日本学術振興会 特別研究員制度（PD）公式ページ**](https://www.jsps.go.jp/j-pd/){target="_blank"}
 
-応募にご興味がある場合や研究機会についてご相談したい場合は、以下までお問い合わせください：[shunsuke.murata@ki.se](mailto:shunsuke.murata@ki.se)
+[**日本学術振興会 特別研究員制度（PD）東北大学ページ**](https://c.bureau.tohoku.ac.jp/kensui-top/3jsps/){target="_blank"}
+
+応募にご興味がある場合や研究機会についてご相談したい場合は、村田までお問い合わせください。
 
 # 研究業績 {#publications} 
 
