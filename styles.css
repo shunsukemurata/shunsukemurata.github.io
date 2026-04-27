@@ -55,12 +55,27 @@ body {
   font-size: 20px;
 }
 
-/* Logo image size in the navbar (PC default) */
+/* PC: 120px (デフォルト) */
 .navbar-logo,
 .navbar-brand img {
   max-height: 180px;
 }
 
+/* タブレット: 80px */
+@media (max-width: 992px) {
+  .navbar-logo,
+  .navbar-brand img {
+    max-height: 100px;
+  }
+}
+
+/* スマホ: 40px */
+@media (max-width: 768px) {
+  .navbar-logo,
+  .navbar-brand img {
+    max-height: 40px;
+  }
+}
 /* Navbar のロゴを左端にぴったり付ける */
 .navbar {
   padding-left: 0 !important;
@@ -144,11 +159,6 @@ table {
     padding-bottom: 10px !important;
   }
   
-  /* スマホではロゴを小さく */
-  .navbar-logo,
-  .navbar-brand img {
-    max-height: 40px;
-  }
   
   /* タイトル文字を小さく */
   .navbar-brand,
