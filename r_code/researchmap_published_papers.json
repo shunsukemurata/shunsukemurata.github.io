@@ -3,8 +3,168 @@
     "@id": "https://api.researchmap.jp/muratas/published_papers?format=json&start=1",
     "@type": "published_papers",
     "@reverse": "https://api.researchmap.jp/muratas",
-    "total_items": 77,
+    "total_items": 79,
     "items": [
+        {
+            "@id": "https://api.researchmap.jp/muratas/published_papers/53308355",
+            "@type": "published_papers",
+            "@reverse": "https://api.researchmap.jp/muratas/published_papers",
+            "rm:id": "53308355",
+            "rm:user_id": "B000355657",
+            "display": "disclosed",
+            "major_achievement": true,
+            "rm:creator_id": "B000355657",
+            "rm:creator_type": "myself",
+            "rm:created": "2026-04-10T07:48:34Z",
+            "rm:modifier_id": "B000355657",
+            "rm:modifier_type": "myself",
+            "rm:modified": "2026-04-10T07:49:23Z",
+            "paper_title": {
+                "en": "Understanding Japan's mortality advantage: a comparison of mortality in independent and dependent older adults in Japan and Sweden."
+            },
+            "authors": {
+                "en": [
+                    {
+                        "name": "Shunsuke Murata"
+                    },
+                    {
+                        "name": "Marcus Ebeling"
+                    },
+                    {
+                        "name": "Rei Ono"
+                    },
+                    {
+                        "name": "Megumi Maeda"
+                    },
+                    {
+                        "name": "Katharina Schmidt-Mende"
+                    },
+                    {
+                        "name": "Haruhisa Fukuda"
+                    },
+                    {
+                        "name": "Karin Modig"
+                    }
+                ]
+            },
+            "description": {
+                "en": "BACKGROUND: A fundamental public health goal is that all individuals have the opportunity to reach old age with adequate care and support. Japan is the global leader in longevity, and understanding whether this advantage exists primarily in healthy older adults or those relying on long-term care (LTC) can reveal if it stems from a healthier population or more extensive, and potentially higher-quality, healthcare provision. This study examined Japan's mortality advantage by comparing life expectancy and death rates in Japan and Sweden across different levels of LTC. METHODS: We included the entire population aged 75 + in Sweden (n = 858,595) and nine Japanese municipalities (n = 334,873), categorizing individuals into three groups: no care, home care, and care home residence. We compared age-specific death rates, remaining life expectancy, and expected time spent in each LTC state. Finally, we quantified how much of the overall mortality differences could be explained by LTC state-specific mortality difference. RESULTS: Japanese older adults had lower death rates and longer life expectancy than Swedish counterparts, with more pronounced differences among individuals utilizing LTC. At age 75, total life expectancy was 12.0 vs. 11.7 years for men and 15.5 vs. 13.7 years for women in Japan and Sweden, respectively. Expected time without LTC was 9.8 vs. 9.6 years for men and 10.4 vs. 9.9 years for women. The difference (95% CI) in total life expectancy [men, 0.3 (0.2, 0.4); women, 1.8 (1.7, 1.9)] exceeded the difference in time without LTC [men, 0.2 (0.2, 0.3); women, 0.5 (0.4, 0.5)], particularly for women. Higher mortality in home care and care home populations in Sweden substantially increased Japan's advantage. CONCLUSIONS: Our findings show that Japan's longevity advantage in old age is primarily driven by lower mortality in the segment of the population utilizing LTC. This indicates that the overall advantage in life expectancy may not stem solely from a healthier population, but rather from more extensive, or possibly higher-quality, care, including life-sustaining treatments. However, since we were unable to control for differences in health status in the two populations, future studies should explore if the threshold for entering LTC is different in Sweden and Japan."
+            },
+            "publication_date": "2026-03-23",
+            "publication_name": {
+                "en": "BMC medicine"
+            },
+            "volume": "24",
+            "number": "1",
+            "languages": [
+                "eng"
+            ],
+            "published_paper_type": "scientific_journal",
+            "is_international_journal": true,
+            "rm:is_open_access": false,
+            "identifiers": {
+                "doi": [
+                    "10.1186/s12916-026-04786-z"
+                ],
+                "pm_id": [
+                    "41866498"
+                ],
+                "pmc_id": [
+                    "PMC13007366"
+                ]
+            },
+            "see_also": [
+                {
+                    "label": "doi",
+                    "@id": "https://doi.org/10.1186/s12916-026-04786-z",
+                    "is_downloadable": false
+                },
+                {
+                    "label": "pubmed",
+                    "@id": "https://www.ncbi.nlm.nih.gov/pubmed/41866498",
+                    "is_downloadable": false
+                },
+                {
+                    "label": "pmc",
+                    "@id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13007366",
+                    "is_downloadable": false
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/muratas/published_papers/53308357",
+            "@type": "published_papers",
+            "@reverse": "https://api.researchmap.jp/muratas/published_papers",
+            "rm:id": "53308357",
+            "rm:user_id": "B000355657",
+            "display": "disclosed",
+            "major_achievement": false,
+            "rm:creator_id": "B000355657",
+            "rm:creator_type": "myself",
+            "rm:created": "2026-04-10T07:48:34Z",
+            "rm:modifier_id": "B000355657",
+            "rm:modifier_type": "myself",
+            "rm:modified": "2026-04-10T07:48:34Z",
+            "paper_title": {
+                "en": "Lateropulsion and visual vertical tilt after supra- and infratentorial stroke: a longitudinal study."
+            },
+            "authors": {
+                "en": [
+                    {
+                        "name": "Masatoshi Kamada"
+                    },
+                    {
+                        "name": "Chiaki Yokota"
+                    },
+                    {
+                        "name": "Shunsuke Murata"
+                    },
+                    {
+                        "name": "Katsuaki Shimano"
+                    },
+                    {
+                        "name": "Daishi Doda"
+                    },
+                    {
+                        "name": "Koichi Ito"
+                    }
+                ]
+            },
+            "publication_date": "2026-03-18",
+            "publication_name": {
+                "en": "Annals of physical and rehabilitation medicine"
+            },
+            "volume": "69",
+            "number": "4",
+            "starting_page": "102100",
+            "ending_page": "102100",
+            "languages": [
+                "eng"
+            ],
+            "published_paper_type": "scientific_journal",
+            "is_international_journal": true,
+            "rm:is_open_access": false,
+            "identifiers": {
+                "doi": [
+                    "10.1016/j.rehab.2026.102100"
+                ],
+                "pm_id": [
+                    "41863194"
+                ]
+            },
+            "see_also": [
+                {
+                    "label": "doi",
+                    "@id": "https://doi.org/10.1016/j.rehab.2026.102100",
+                    "is_downloadable": false
+                },
+                {
+                    "label": "pubmed",
+                    "@id": "https://www.ncbi.nlm.nih.gov/pubmed/41863194",
+                    "is_downloadable": false
+                }
+            ]
+        },
         {
             "@id": "https://api.researchmap.jp/muratas/published_papers/51839820",
             "@type": "published_papers",

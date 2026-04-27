@@ -1,27 +1,24 @@
 project:
   type: website
+  output-dir: _site
 
 website:
-  title: "Shunsuke Murata - Research Group" # 
-  # site-url: https://github.com/shunsukemurata
+  title: "Shunsuke Murata - Research Group"
+  # site-url: https://shunsukemurata.github.io
   page-navigation: false
   favicon: "logo/tohoku_univ/Toh_E_L_N_RGB.gif"
   google-analytics: "G-YP5LFKST0E"
-  search: false 
+  search: false
   navbar:
-    #background: "#3e1485" #  hex color
-    background: "white" # transparent
-    foreground: "#3e1485" ##f8f8f8
+    background: "white"
+    foreground: "#3e1485"
     logo: "logo/tohoku_univ/Toh_E_L_N_RGB.gif"
     right:
-      #- icon: github
-      #  href: https://github.com/shunsukemurata
-      #  aria-label: Quarto GitHub
       - text: "EN"
         href: index.qmd
       - text: "JA"
-        href: index_ja.qmd
-        
+        href: ja/index.qmd
+
   sidebar:
     - id: en
       style: "docked"
@@ -40,21 +37,20 @@ website:
       style: "docked"
       contents:
         - text: "研究概要"
-          href: index_ja.qmd#about
+          href: ja/index.qmd#about
         - text: "メンバー"
-          href: index_ja.qmd#member
+          href: ja/index.qmd#member
         - text: "募集"
-          href: index_ja.qmd#hiring
+          href: ja/index.qmd#hiring
         - text: "研究業績"
-          href: index_ja.qmd#publications
+          href: ja/index.qmd#publications
         - text: "研究費"
-          href: index_ja.qmd#funding
+          href: ja/index.qmd#funding
 
 format:
   html:
     theme:
       light: flatly
-      # dark: darkly
     css: styles.css
     toc: false
 

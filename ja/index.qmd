@@ -1,6 +1,7 @@
 ---
 title: ""
 sidebar: ja
+lang: ja
 editor_options: 
   chunk_output_type: console
 ---
@@ -34,7 +35,7 @@ editor_options:
 ## 村田 峻輔
 ::: {style="display: grid; grid-template-columns: 120px 1fr; gap: 15px; align-items: start;"}
 ::: {}
-![](logo/shunsuke.jpg){width=120px}
+![](/logo/shunsuke.jpg){width=120px}
 :::
 
 ::: {}
@@ -45,7 +46,7 @@ editor_options:
   [E-mail](mailto:shunsuke.murata@tohoku.ac.jp)  
 :::
 :::
-[![](logo/Researchmap.png){width=150px}](https://researchmap.jp/muratas?lang=ja){target="_blank"}  &nbsp;&nbsp; [![](logo/Google_Scholar_logo.png){width=150px}](https://scholar.google.com/citations?user=UgbhvSsAAAAJ&hl=en){target="_blank"} &nbsp;&nbsp; [![](logo/ORCID-iD_icon_32x32.png){width=30px}](https://orcid.org/0000-0002-1670-020X){target="_blank"} &nbsp;&nbsp; [![](logo/LI-In-Bug.png){width=30px}](https://www.linkedin.com/in/shunsuke-murata-6631141a6/){target="_blank"}
+[![](/logo/Researchmap.png){width=150px}](https://researchmap.jp/muratas?lang=ja){target="_blank"}  &nbsp;&nbsp; [![](/logo/Google_Scholar_logo.png){width=150px}](https://scholar.google.com/citations?user=UgbhvSsAAAAJ&hl=en){target="_blank"} &nbsp;&nbsp; [![](/logo/ORCID-iD_icon_32x32.png){width=30px}](https://orcid.org/0000-0002-1670-020X){target="_blank"} &nbsp;&nbsp; [![](/logo/LI-In-Bug.png){width=30px}](https://www.linkedin.com/in/shunsuke-murata-6631141a6/){target="_blank"}
 
 # 募集 {#hiring}
 

@@ -4,6 +4,11 @@
 # Allow directories so whitelisted folders/files can be tracked
 !*/
 
+.Rhistory
+.RData
+.Ruserdata
+
+/_site/
 # Keep this file tracked
 !.gitignore
 
