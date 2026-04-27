@@ -144,10 +144,9 @@ table {
     padding-bottom: 10px !important;
   }
   
-  /* スマホではロゴを小さく */
   .navbar-logo,
   .navbar-brand img {
-    max-height: 40px;
+    max-height: 200px;
   }
   
   /* タイトル文字を小さく */
