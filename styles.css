@@ -58,7 +58,7 @@ body {
 /* Logo image size in the navbar (PC default) */
 .navbar-logo,
 .navbar-brand img {
-  max-height: 80px;
+  max-height: 180px;
 }
 
 /* Navbar のロゴを左端にぴったり付ける */
@@ -102,7 +102,7 @@ img {
   height: auto;
 }
 
-/* テーブルははみ出す場合だけ横スクロール、display:block は使わない */
+/* テーブルははみ出す場合だけ横スクロール */
 .table-responsive {
   max-width: 100%;
   overflow-x: auto;
@@ -144,9 +144,10 @@ table {
     padding-bottom: 10px !important;
   }
   
+  /* スマホではロゴを小さく */
   .navbar-logo,
   .navbar-brand img {
-    max-height: 200px;
+    max-height: 40px;
   }
   
   /* タイトル文字を小さく */
