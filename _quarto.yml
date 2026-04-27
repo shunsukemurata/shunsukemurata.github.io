@@ -2,20 +2,21 @@ project:
   type: website
 
 website:
-  title: "Shunsuke Murata - Tohoku university"
+  title: "Shunsuke Murata - Research Group" # 
   # site-url: https://github.com/shunsukemurata
   page-navigation: false
-  favicon: "logo/logo_j_p.png"
+  favicon: "logo/tohoku_univ/Toh_E_L_N_RGB.gif"
   google-analytics: "G-YP5LFKST0E"
   search: false 
   navbar:
-    background: "#3e1485" # hex color
-    foreground: "white"
-    logo: "logo/logo_j_p.png"
+    #background: "#3e1485" #  hex color
+    background: "white" # transparent
+    foreground: "#3e1485" ##f8f8f8
+    logo: "logo/tohoku_univ/Toh_E_L_N_RGB.gif"
     right:
-      - icon: github
-        href: https://github.com/shunsukemurata
-        aria-label: Quarto GitHub
+      #- icon: github
+      #  href: https://github.com/shunsukemurata
+      #  aria-label: Quarto GitHub
       - text: "EN"
         href: index.qmd
       - text: "JA"
@@ -29,7 +30,7 @@ website:
           href: index.qmd#about
         - text: "Member"
           href: index.qmd#member
-        - text: "Hiring"
+        - text: "Join our team"
           href: index.qmd#hiring
         - text: "Publications"
           href: index.qmd#publications

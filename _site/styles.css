@@ -1,28 +1,43 @@
-/* css styles */
-/* Center the main content */
+/* =========================
+  Quarto site CSS (source)
+  - Edit this file.
+  - _site/styles.css is generated.
+  ========================= */
+
+/* -------------------------
+   Layout / page centering
+   ------------------------- */
+
+/* Center the main content columns wrapper (Quarto layout) */
 .page-columns {
   display: flex;
   justify-content: center;
 }
 
+/* Constrain the width of the main article content */
 main.content {
   max-width: 900px;
   margin: 0 auto;
   padding: 20px;
 }
 
-/* Adjust spacing when sidebar is present */
+/* When sidebar exists, keep columns centered */
 .sidebar-navigation + .page-columns {
   margin-left: auto;
   margin-right: auto;
 }
 
-/* Optional: Make the entire layout more centered */
+/* Optional: center the entire page on wide screens (adds left/right margins) */
 body {
   max-width: 1400px;
   margin: 0 auto;
 }
 
+/* -------------------------
+  “Show more” button
+  ------------------------- */
+
+/* Base appearance */
 #show-more-btn {
   display: block;
   margin: 1rem auto 0 auto;
@@ -33,6 +48,55 @@ body {
   font-size: 0.9rem;
 }
 
+.navbar-nav .nav-link {
+    font-size: 20px; /* Adjust as needed */
+}
+
+/* Hover feedback */
 #show-more-btn:hover {
   background: #f5f5f5;
+}
+
+/* -------------------------
+   Navbar / header
+   ------------------------- */
+
+/* Logo image size in the navbar */
+.navbar-logo {
+  max-height: 100px;
+}
+
+/* Navbar のロゴを左端にぴったり付ける (Flush-left logo in navbar) */
+/* These rules override Bootstrap container paddings/margins in the navbar */
+.navbar {
+  padding-left: 0 !important;
+  margin-top: 0px !important;
+  padding-top: 30px !important;
+}
+
+.navbar > .container,
+.navbar > .container-fluid,
+.navbar > .container-xxl,
+.navbar > .container-xl,
+.navbar > .container-lg,
+.navbar > .container-md,
+.navbar > .container-sm {
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+
+/* Remove left padding/margin on the brand/title container */
+.navbar-brand,
+.navbar-brand-container {
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+  font-size: 1.5rem !important;
+}
+
+/* Ensure the logo image itself has no left margin/padding */
+.navbar-brand > img,
+.navbar-logo {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+  margin-right: 1rem !important;
 }

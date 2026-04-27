@@ -1,0 +1,59 @@
+﻿<</Subtype/Link/Rect[ 111.35 279.72 392.19 297.72] /BS<</W 0>>/F 4/A<</Type/Action/S/URI/URI(https://openid-foundation-japan.github.io/rfc6749.ja.html) >>/StructParent 104>>
+<</Subtype/Link/Rect[ 124.85 567.72 358.24 585.72] /BS<</W 0>>/F 4/A<</Type/Action/S/URI/URI(https://researchmap.jp/outline/v2api/v2CSV.pdf) >>/StructParent 180>>
+<</Subtype/Link/Rect[ 135.35 175.97 379 193.97] /BS<</W 0>>/F 4/A<</Type/Action/S/URI/URI(https://openid-foundation-japan.github.io/rfc6750.ja.html#authn-header) >>/StructParent 130>>
+<</Subtype/Link/Rect[ 156.88 261.72 437.72 279.72] /BS<</W 0>>/F 4/A<</Type/Action/S/URI/URI(https://openid-foundation-japan.github.io/rfc6750.ja.html) >>/StructParent 105>>
+<</Subtype/Link/Rect[ 162.13 225.72 326.29 243.72] /BS<</W 0>>/F 4/A<</Type/Action/S/URI/URI(https://tools.ietf.org/html/rfc7521) >>/StructParent 107>>
+<</Subtype/Link/Rect[ 165.25 285.87 514.32 299.48] /BS<</W 0>>/F 4/A<</Type/Action/S/URI/URI(https://researchmap.jp/outline/rmapv2/area/rmapV2_ResearchArea.pdf) >>/StructParent 259>>
+<</Subtype/Link/Rect[ 175.75 258.63 484.19 272.25] /BS<</W 0>>/F 4/A<</Type/Action/S/URI/URI(https://researchmap.jp/outline/rmapv2/code/LanguageCode.pdf) >>/StructParent 261>>
+<</Subtype/Link/Rect[ 186.25 245.01 469.13 258.63] /BS<</W 0>>/F 4/A<</Type/Action/S/URI/URI(https://researchmap.jp/outline/rmapv2/code/Timezone.pdf) >>/StructParent 262>>
+<</Subtype/Link/Rect[ 196.75 272.25 497.19 285.87] /BS<</W 0>>/F 4/A<</Type/Action/S/URI/URI(https://researchmap.jp/outline/rmapv2/code/CountryCode.pdf) >>/StructParent 260>>
+<</Subtype/Link/Rect[ 219.1 243.72 383.26 261.72] /BS<</W 0>>/F 4/A<</Type/Action/S/URI/URI(https://tools.ietf.org/html/rfc7523) >>/StructParent 106>>
+<</Subtype/Link/Rect[ 219.25 547.47 320.73 565.47] /BS<</W 0>>/F 4/A<</Type/Action/S/URI/URI(https://tools.ietf.org/html/rfc7009) >>/StructParent 256>>
+<</Subtype/Link/Rect[ 221.88 566.97 312.92 584.97] /BS<</W 0>>/F 4/A<</Type/Action/S/URI/URI(https://tools.ietf.org/html/rfc7521) >>/StructParent 233>>
+<</Subtype/Link/Rect[ 233.45 327.22 334.93 345.22] /BS<</W 0>>/F 4/A<</Type/Action/S/URI/URI(http://schema.org/familyName) >>/StructParent 343>>
+<</Subtype/Link/Rect[ 242.88 241.47 333.92 259.47] /BS<</W 0>>/F 4/A<</Type/Action/S/URI/URI(https://openid-foundation-japan.github.io/rfc6749.ja.html) >>/StructParent 236>>
+<</Subtype/Link/Rect[ 268.76 207.72 549.75 225.72] /BS<</W 0>>/F 4/A<</Type/Action/S/URI/URI(https://openid-foundation-japan.github.io/rfc6819.ja.html) >>/StructParent 108>>
+<</Subtype/Link/Rect[ 307.6 315.72 409.08 333.72] /BS<</W 0>>/F 4/A<</Type/Action/S/URI/URI(https://schema.org/dateCreated) >>/StructParent 650>>
+<</Subtype/Link/Rect[ 364.25 330.72 418.25 348.72] /BS<</W 0>>/F 4/A<</Type/Action/S/URI/URI(https://researchmap.jp/outline/rmapv2/code/CountryCode.pdf) >>/StructParent 695>>
+<</Subtype/Link/Rect[ 364.25 384.72 465.73 402.72] /BS<</W 0>>/F 4/A<</Type/Action/S/URI/URI(https://researchmap.jp/xxxxxxxxxx.png) >>/StructParent 693>>
+<</Subtype/Link/Rect[ 364.25 398.22 397.25 416.22] /BS<</W 0>>/F 4/A<</Type/Action/S/URI/URI(https://researchmap.jp/outline/rmapv2/code/LanguageCode.pdf) >>/StructParent 688>>
+<</Subtype/Link/Rect[ 364.25 452.22 420.2 470.22] /BS<</W 0>>/F 4/A<</Type/Action/S/URI/URI(http://meta.schema.org/name) >>/StructParent 686>>
+<</Subtype/Link/Rect[ 364.25 693.72 418.25 711.72] /BS<</W 0>>/F 4/A<</Type/Action/S/URI/URI(https://researchmap.jp/outline/rmapv2/code/CountryCode.pdf) >>/StructParent 673>>
+<</Subtype/Link/Rect[ 364.25 747.72 465.73 765.72] /BS<</W 0>>/F 4/A<</Type/Action/S/URI/URI(https://schema.org/dateModified) >>/StructParent 671>>
+<</Subtype/Link/Rect[ 368.4 254.97 401.4 272.97] /BS<</W 0>>/F 4/A<</Type/Action/S/URI/URI(https://researchmap.jp/outline/rmapv2/code/LanguageCode.pdf) >>/StructParent 680>>
+<</Subtype/Link/Rect[ 368.4 308.97 424.35 326.97] /BS<</W 0>>/F 4/A<</Type/Action/S/URI/URI(https://schema.org/dateCreated) >>/StructParent 678>>
+<</Subtype/Link/Rect[ 385.95 399.72 432.45 417.72] /BS<</W 0>>/F 4/A<</Type/Action/S/URI/URI(https://researchmap.jp/outline/rmapv2/code/CountryCode.pdf) >>/StructParent 358>>
+<</Subtype/Link/Rect[ 393.05 604.22 439.55 622.22] /BS<</W 0>>/F 4/A<</Type/Action/S/URI/URI(https://researchmap.jp/outline/rmapv2/code/CountryCode.pdf) >>/StructParent 384>>
+<</Subtype/Link/Rect[ 400.1 236.72 457.1 254.72] /BS<</W 0>>/F 4/A<</Type/Action/S/URI/URI(https://researchmap.jp/outline/rmapv2/code/CountryCode.pdf) >>/StructParent 476>>
+<</Subtype/Link/Rect[ 400.1 347.22 436.1 365.22] /BS<</W 0>>/F 4/A<</Type/Action/S/URI/URI(https://researchmap.jp/outline/rmapv2/code/LanguageCode.pdf) >>/StructParent 469>>
+<</Subtype/Link/Rect[ 400.1 528.22 436.1 546.22] /BS<</W 0>>/F 4/A<</Type/Action/S/URI/URI(https://researchmap.jp/outline/rmapv2/code/LanguageCode.pdf) >>/StructParent 451>>
+<</Subtype/Link/Rect[ 400.1 638.22 436.1 656.22] /BS<</W 0>>/F 4/A<</Type/Action/S/URI/URI(https://researchmap.jp/outline/rmapv2/code/LanguageCode.pdf) >>/StructParent 403>>
+<</Subtype/Link/Rect[ 407.2 257.22 464.2 275.22] /BS<</W 0>>/F 4/A<</Type/Action/S/URI/URI(https://researchmap.jp/outline/rmapv2/code/CountryCode.pdf) >>/StructParent 493>>
+<</Subtype/Link/Rect[ 414.3 472.22 460.8 490.22] /BS<</W 0>>/F 4/A<</Type/Action/S/URI/URI(https://researchmap.jp/outline/rmapv2/code/LanguageCode.pdf) >>/StructParent 427>>
+<</Subtype/Link/Rect[ 414.3 620.72 460.8 638.72] /BS<</W 0>>/F 4/A<</Type/Action/S/URI/URI(https://researchmap.jp/outline/rmapv2/code/LanguageCode.pdf) >>/StructParent 624>>
+<</Subtype/Link/Rect[ 446.3 546.72 513.8 564.72] /BS<</W 0>>/F 4/A<</Type/Action/S/URI/URI(https://researchmap.jp/outline/rmapv2/area/rmapV2_ResearchArea.pdf) >>/StructParent 663>>
+<</Subtype/Link/Rect[ 446.3 583.47 513.8 601.47] /BS<</W 0>>/F 4/A<</Type/Action/S/URI/URI(https://researchmap.jp/outline/rmapv2/area/rmapV2_ResearchArea.pdf) >>/StructParent 661>>
+<</Subtype/Link/Rect[ 476.75 348.72 549.2 366.72] /BS<</W 0>>/F 4/A<</Type/Action/S/URI/URI(https://researchmap.jp/outline/rmapv2/code/CountryCode.pdf) >>/StructParent 694>>
+<</Subtype/Link/Rect[ 476.75 416.22 549.2 434.22] /BS<</W 0>>/F 4/A<</Type/Action/S/URI/URI(https://researchmap.jp/outline/rmapv2/code/LanguageCode.pdf) >>/StructParent 687>>
+<</Subtype/Link/Rect[ 476.75 711.72 549.2 729.72] /BS<</W 0>>/F 4/A<</Type/Action/S/URI/URI(https://researchmap.jp/outline/rmapv2/code/CountryCode.pdf) >>/StructParent 672>>
+<</Subtype/Link/Rect[ 480.45 417.72 549.75 435.72] /BS<</W 0>>/F 4/A<</Type/Action/S/URI/URI(https://researchmap.jp/outline/rmapv2/code/CountryCode.pdf) >>/StructParent 357>>
+<</Subtype/Link/Rect[ 480.9 272.97 549.2 290.97] /BS<</W 0>>/F 4/A<</Type/Action/S/URI/URI(https://researchmap.jp/outline/rmapv2/code/LanguageCode.pdf) >>/StructParent 679>>
+<</Subtype/Link/Rect[ 487.55 622.22 549.75 640.22] /BS<</W 0>>/F 4/A<</Type/Action/S/URI/URI(https://researchmap.jp/outline/rmapv2/code/CountryCode.pdf) >>/StructParent 383>>
+<</Subtype/Link/Rect[ 494.6 254.72 549.75 272.72] /BS<</W 0>>/F 4/A<</Type/Action/S/URI/URI(https://researchmap.jp/outline/rmapv2/code/CountryCode.pdf) >>/StructParent 475>>
+<</Subtype/Link/Rect[ 494.6 365.22 549.75 383.22] /BS<</W 0>>/F 4/A<</Type/Action/S/URI/URI(https://researchmap.jp/outline/rmapv2/code/LanguageCode.pdf) >>/StructParent 468>>
+<</Subtype/Link/Rect[ 494.6 546.22 549.75 564.22] /BS<</W 0>>/F 4/A<</Type/Action/S/URI/URI(https://researchmap.jp/outline/rmapv2/code/LanguageCode.pdf) >>/StructParent 450>>
+<</Subtype/Link/Rect[ 494.6 656.22 549.75 674.22] /BS<</W 0>>/F 4/A<</Type/Action/S/URI/URI(https://researchmap.jp/outline/rmapv2/code/LanguageCode.pdf) >>/StructParent 402>>
+<</Subtype/Link/Rect[ 501.7 275.22 549.75 293.22] /BS<</W 0>>/F 4/A<</Type/Action/S/URI/URI(https://researchmap.jp/outline/rmapv2/code/CountryCode.pdf) >>/StructParent 492>>
+<</Subtype/Link/Rect[ 508.8 490.22 549.75 508.22] /BS<</W 0>>/F 4/A<</Type/Action/S/URI/URI(https://researchmap.jp/outline/rmapv2/code/LanguageCode.pdf) >>/StructParent 426>>
+<</Subtype/Link/Rect[ 508.8 638.72 549.75 656.72] /BS<</W 0>>/F 4/A<</Type/Action/S/URI/URI(https://researchmap.jp/outline/rmapv2/code/LanguageCode.pdf) >>/StructParent 623>>
+<</Subtype/Link/Rect[ 529.5 511.47 555 529.47] /BS<</W 0>>/F 4/A<</Type/Action/S/URI/URI(https://researchmap.jp/public/other-document/specification/similarity_check) >>/StructParent 190>>
+<</Subtype/Link/Rect[ 82.85 166.29 163.76 178.92] /BS<</W 0>>/F 4/A<</Type/Action/S/URI/URI(https://researchmap.jp/blogs/blog_entries/view/515443/37e37664fb75a1f2749f97e94fb52c89?frame_id=1028063) >>/StructParent 278>>
+<</Subtype/Link/Rect[ 82.85 178.92 555 191.54] /BS<</W 0>>/F 4/A<</Type/Action/S/URI/URI(https://researchmap.jp/blogs/blog_entries/view/515443/37e37664fb75a1f2749f97e94fb52c89?frame_id=1028063) >>/StructParent 277>>
+<</Subtype/Link/Rect[ 82.85 493.47 168.35 511.47] /BS<</W 0>>/F 4/A<</Type/Action/S/URI/URI(https://researchmap.jp/public/other-document/specification/similarity_check) >>/StructParent 191>>
+<</Subtype/Link/Rect[ 82.85 99.203 383.73 112.82] /BS<</W 0>>/F 4/A<</Type/Action/S/URI/URI(https://guide.researchmap.jp/index.php/Researchmap
+<</Subtype/Link/Rect[ 89.9 112.82 555 126.44] /BS<</W 0>>/F 4/A<</Type/Action/S/URI/URI(https://guide.researchmap.jp/index.php/Researchmap
+<rdf:Description rdf:about=""  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description rdf:about=""  xmlns:pdf="http://ns.adobe.com/pdf/1.3/">
+<rdf:Description rdf:about=""  xmlns:xmp="http://ns.adobe.com/xap/1.0/">
+<rdf:Description rdf:about=""  xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">

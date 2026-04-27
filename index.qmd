@@ -1,5 +1,5 @@
 ---
-title: "Shunsuke Murata - Research Group"
+title: ""
 sidebar: en
 editor_options: 
   chunk_output_type: console
@@ -9,7 +9,7 @@ editor_options:
 
 Our research focuses on aging epidemiology, with an emphasis on understanding longevity, preventive strategies for disease and disability, and the management of age-related health issues in older populations. 
 
-Our work uses epidemiological methods, including causal inference, and demographic approaches, analyzing various data sources such as administrative records (registers and healthcare insurance data), cohort data, and open data as long as they fit our research theme.
+<!-- Our work uses epidemiological methods, including causal inference, and demographic approaches, analyzing various data sources such as administrative records (registers and healthcare insurance data), cohort data, and open data as long as they fit our research theme. -->
 
 We welcome collaborations with researchers having diverse backgrounds.
 
@@ -17,15 +17,13 @@ We welcome collaborations with researchers having diverse backgrounds.
 **Longevity and Healthy Longevity**
 :::
 
- We investigate the determinants of longevity and healthy aging through comparative international studies and within-country analyses. Current research projects include comparing older adults' health and healthcare between Japan and Sweden, and examining the heterogeneity of healthy longevity within Japan.
+ We investigate the determinants of longevity and healthy aging. Current research projects include comparing older adults' health and healthcare between Japan and Sweden.
 
 ::: {style="font-size: 1.3rem;"}
 **Issues in Older Adults, Especially Dementia**
 :::
 
-We investigate critical health and safety challenges that affect quality of life and independence in the older population. Our research addresses both chronic conditions such as dementia and musculoskeletal pain and its impact on disability and cognitive function, as well as safety risks including dementia-related missing and wandering behavior.
-
-One of the major focuses is dementia research, where we examine disease progression and optimize care delivery for individuals living with dementia. This work has important implications for dementia care strategies, caregiver support, and health policies.
+We investigate critical health related challenges that affect quality of life and independence in the older population. Our research addresses both chronic conditions such as dementia and musculoskeletal pain and its impact on disability and cognitive function, as well as dementia-related issues including getting lost and wandering behavior.
 
 ::: {style="font-size: 1.3rem;"}
 **Keywords**: Longevity; Healthy longevity; Dementia; Disability; Long-term care; Epidemiology; Demography
@@ -44,7 +42,7 @@ Assistant professor
 Tohoku University  
 1) Frontier Research Institute for Interdisciplinary Sciences  &nbsp;&nbsp;  [Map](https://maps.app.goo.gl/TiPeo2iSwrbYmDjr6){target="_blank"}  
 2) Department of International and Community Oral Health, Graduate School of Dentistry   &nbsp;&nbsp; [Map](https://maps.app.goo.gl/E9tCVmz5oErsnBSw9){target="_blank"}   
-  [E-mail](mailto:shunsuke.murata@ki.se)  
+  [E-mail](mailto:shunsuke.murata@tohoku.ac.jp)  
       
 :::
 :::
@@ -52,27 +50,27 @@ Tohoku University
   
 [![](logo/Google_Scholar_logo.png){width=150px}](https://scholar.google.com/citations?user=UgbhvSsAAAAJ&hl=en){target="_blank"} &nbsp;&nbsp; [![](logo/ORCID-iD_icon_32x32.png){width=30px}](https://orcid.org/0000-0002-1670-020X){target="_blank"} &nbsp;&nbsp; [![](logo/LI-In-Bug.png){width=30px}](https://www.linkedin.com/in/shunsuke-murata-6631141a6/){target="_blank"}
 
-# Hiring {#hiring}
+# Join our team {#join-our-team}
 
 ::: {style="font-size: 1.3rem;"}
-**JSPS Postdoctoral Fellowship from other countries**
+**JSPS Postdoctoral Fellowship from abroad**
 :::
 
-We welcome applications from **international researchers** interested in joining our group through the **JSPS Postdoctoral Fellowship from other countries** program.
+This program allows **researchers from abroad** to stay in Japan, and then conduct research at Japanese institutions. We would be pleased to host fellows under this program. If you are interested in joining our group through this fellowship, please contact Shunsuke Murata.
 
-This prestigious fellowship supports outstanding researchers from abroad to conduct research at Japanese institutions. It provides comprehensive support including:
+It provides comprehensive support, including:
 
 **Key Features:**  
-- Monthly living allowance (highly competitive rates)  
+- Monthly living allowance    
 - Research activity allowance  
 - International travel expenses  
-- Health insurance coverage  
+- Overseas travel insurance etc
 
 For detailed information about eligibility, application procedures, and timeline, please visit:
 
-[**JSPS Postdoctoral Fellowship**](https://www.jsps.go.jp/english/e-fellow/index.html){target="_blank"}
+[**JSPS Postdoctoral Fellowship**](https://www.jsps.go.jp/english/e-fellow/e-ippan/index.html){target="_blank"}
 
-If you are interested in applying or would like to discuss research opportunities, please contact Shunsuke Murata.
+JSPS also offers [**short-term programs**](https://www.jsps.go.jp/english/e-fellow/index.html){target="_blank"}.
 
 # Publications {#publications}
 
