@@ -8,36 +8,31 @@
    Layout / page centering
    ------------------------- */
 
-/* Center the main content columns wrapper (Quarto layout) */
 .page-columns {
   display: flex;
   justify-content: center;
 }
 
-/* Constrain the width of the main article content */
 main.content {
   max-width: 900px;
   margin: 0 auto;
   padding: 20px;
 }
 
-/* When sidebar exists, keep columns centered */
 .sidebar-navigation + .page-columns {
   margin-left: auto;
   margin-right: auto;
 }
 
-/* Optional: center the entire page on wide screens (adds left/right margins) */
 body {
   max-width: 1400px;
   margin: 0 auto;
 }
 
 /* -------------------------
-  “Show more” button
+  "Show more" button
   ------------------------- */
 
-/* Base appearance */
 #show-more-btn {
   display: block;
   margin: 1rem auto 0 auto;
@@ -48,11 +43,6 @@ body {
   font-size: 0.9rem;
 }
 
-.navbar-nav .nav-link {
-    font-size: 20px; /* Adjust as needed */
-}
-
-/* Hover feedback */
 #show-more-btn:hover {
   background: #f5f5f5;
 }
@@ -61,13 +51,17 @@ body {
    Navbar / header
    ------------------------- */
 
-/* Logo image size in the navbar */
-.navbar-logo {
-  max-height: 100px;
+.navbar-nav .nav-link {
+  font-size: 20px;
 }
 
-/* Navbar のロゴを左端にぴったり付ける (Flush-left logo in navbar) */
-/* These rules override Bootstrap container paddings/margins in the navbar */
+/* Logo image size in the navbar (PC default) */
+.navbar-logo,
+.navbar-brand img {
+  max-height: 80px;
+}
+
+/* Navbar のロゴを左端にぴったり付ける */
 .navbar {
   padding-left: 0 !important;
   margin-top: 0px !important;
@@ -85,7 +79,6 @@ body {
   margin-left: 0 !important;
 }
 
-/* Remove left padding/margin on the brand/title container */
 .navbar-brand,
 .navbar-brand-container {
   padding-left: 0 !important;
@@ -93,10 +86,85 @@ body {
   font-size: 1.5rem !important;
 }
 
-/* Ensure the logo image itself has no left margin/padding */
 .navbar-brand > img,
 .navbar-logo {
   margin-left: 0 !important;
   padding-left: 0 !important;
   margin-right: 1rem !important;
+}
+
+/* -------------------------
+   Images / tables (responsive defaults)
+   ------------------------- */
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* テーブルははみ出す場合だけ横スクロール、display:block は使わない */
+.table-responsive {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+table {
+  max-width: 100%;
+}
+
+/* =========================
+   Mobile (≤ 768px) overrides
+   ========================= */
+@media (max-width: 768px) {
+  /* 本文のパディングを縮小 */
+  body {
+    padding: 0;
+  }
+  
+  main.content {
+    padding: 12px;
+  }
+  
+  /* 見出しサイズ */
+  h1 {
+    font-size: 1.6rem;
+  }
+  
+  h2 {
+    font-size: 1.3rem;
+  }
+  
+  h3 {
+    font-size: 1.15rem;
+  }
+  
+  /* ナビバー全体をコンパクトに */
+  .navbar {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+  
+  /* スマホではロゴを小さく */
+  .navbar-logo,
+  .navbar-brand img {
+    max-height: 40px;
+  }
+  
+  /* タイトル文字を小さく */
+  .navbar-brand,
+  .navbar-brand-container {
+    font-size: 1rem !important;
+  }
+  
+  /* ナビリンクの文字サイズ */
+  .navbar-nav .nav-link {
+    font-size: 16px;
+  }
+  
+  /* テーブルが大きい場合は横スクロール */
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
 }
