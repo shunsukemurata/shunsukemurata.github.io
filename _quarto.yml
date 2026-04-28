@@ -8,7 +8,7 @@ website:
   page-navigation: false
   favicon: "logo/tohoku_univ/Toh_E_L_N_RGB.gif"
   google-analytics: "G-NBK3WB71PM"
-  search: falsegas
+  search: false
   navbar:
     background: "white"
     foreground: "#3e1485"
