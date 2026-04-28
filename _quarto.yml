@@ -28,7 +28,7 @@ website:
         - text: "Member"
           href: index.qmd#member
         - text: "Join our team"
-          href: index.qmd#hiring
+          href: index.qmd#join-our-team
         - text: "Publications"
           href: index.qmd#publications
         - text: "Funding"
@@ -41,7 +41,7 @@ website:
         - text: "メンバー"
           href: ja/index.qmd#member
         - text: "募集"
-          href: ja/index.qmd#hiring
+          href: ja/index.qmd#join-our-team
         - text: "研究業績"
           href: ja/index.qmd#publications
         - text: "研究費"

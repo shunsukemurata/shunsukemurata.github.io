@@ -48,7 +48,7 @@ editor_options:
 :::
 [![](/logo/Researchmap.png){width=150px}](https://researchmap.jp/muratas?lang=ja){target="_blank"}  &nbsp;&nbsp; [![](/logo/Google_Scholar_logo.png){width=150px}](https://scholar.google.com/citations?user=UgbhvSsAAAAJ&hl=en){target="_blank"} &nbsp;&nbsp; [![](/logo/ORCID-iD_icon_32x32.png){width=30px}](https://orcid.org/0000-0002-1670-020X){target="_blank"} &nbsp;&nbsp; [![](/logo/LI-In-Bug.png){width=30px}](https://www.linkedin.com/in/shunsuke-murata-6631141a6/){target="_blank"}
 
-# 募集 {#hiring}
+# 募集 {#join-our-team}
 
 ::: {style="font-size: 1.3rem;"}
 **日本学術振興会（JSPS）特別研究員制度**
