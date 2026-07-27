@@ -3,7 +3,7 @@ project:
   output-dir: _site
 
 website:
-  title: "Shunsuke Murata - Research Group"
+  title: "Shunsuke Murata"
   # site-url: https://shunsukemurata.github.io
   page-navigation: false
   favicon: "logo/tohoku_univ/Toh_E_L_N_RGB.gif"
