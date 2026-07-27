@@ -32,3 +32,11 @@
 /.quarto/
 
 **/*.quarto_ipynb
+
+# Whitelist images
+!images/
+!images/**
+
+# Whitelist logo folder
+!logo/
+!logo/**
