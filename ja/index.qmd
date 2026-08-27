@@ -60,9 +60,11 @@ editor_options:
 
 [**日本学術振興会 特別研究員制度 公式ページ**](https://www.jsps.go.jp/j-pd/){target="_blank"}
 
-また東北大学は特別研究員PD、RPD、CPDに対してより手厚いサポートがあり、常勤の研究職として雇用されます（詳細は以下のサイト参照）。
+また東北大学は特別研究員PD、RPD、CPDに対してより手厚いサポートがあり、常勤の研究職として雇用されます（詳細は以下のバナーをクリックしてサイト参照）。
 
-[**日本学術振興会 特別研究員制度 東北大学ページ**](https://c.bureau.tohoku.ac.jp/kensui-top/3jsps/){target="_blank"}
+**日本学術振興会 特別研究員制度 東北大学ページ**  
+
+[![](/logo/PD/jsps-banner2.jpg){width=300px}](https://c.bureau.tohoku.ac.jp/kensui-top/3jsps/){target="_blank"}
 
 応募にご興味がある場合や研究機会についてご相談したい場合は、村田までお問い合わせください。
 
