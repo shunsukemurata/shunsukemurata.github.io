@@ -52,6 +52,10 @@ Tohoku University
 
 # Join our team {#join-our-team}
 
+We are looking for **doctoral students** who are interested in the epidemiology and/or demography of population aging. We also welcome inquiries from **early-career researchers who are considering applying for a JSPS Postdoctoral Fellowship with our group as the host**. We welcome applicants from diverse backgrounds, whether in public health, social sciences, statistics, clinical practice, or other fields.  
+
+Depending on the availability of research funding, such as external grants, we may also be able to employ **postdoctoral researchers**, and to employ **doctoral students as research assistants (RAs)** in addition to the support from the LEAP Program (see below). If you are interested, please feel free to contact us at any time.
+
 ::: {style="font-size: 1.3rem;"}
 **JSPS Postdoctoral Fellowship from abroad**
 :::
@@ -71,6 +75,25 @@ For detailed information about eligibility, application procedures, and timeline
 [**JSPS Postdoctoral Fellowship**](https://www.jsps.go.jp/english/e-fellow/e-ippan/index.html){target="_blank"}
 
 JSPS also offers [**short-term programs**](https://www.jsps.go.jp/english/e-fellow/index.html){target="_blank"}.
+
+
+::: {style="font-size: 1.3rem;"}
+**Doctoral students**
+:::
+ 
+Doctoral students enroll in the Graduate School of Dentistry, Tohoku University. Several funding routes are available for **international students**:
+
+**Japanese Government (MEXT) Scholarship**
+covers tuition, a monthly stipend, and round-trip travel to Japan. You can apply through the Japanese embassy in your country or through university recommendation. Details are available on the webpage below.
+
+[**MEXT Scholarship (Study in Japan)**](https://www.studyinjapan.go.jp/en/planning/scholarships/mext-scholarships/){target="_blank"}
+
+**Tohoku University LEAP Program**
+is a comprehensive support package for doctoral students, including a research stipend and competitive research funds. Students who join one of Tohoku University's degree programs, such as the Institute for Interdisciplinary Advanced Research and Education, may receive additional support. We are happy to support your applications to these programs. Details are available on the webpage below.
+
+[**LEAP Program**](https://pgd.tohoku.ac.jp/english/rpc/LEAP.html){target="_blank"}
+ 
+If you are interested in joining our group or would like to discuss research opportunities, please contact Shunsuke Murata.
 
 # Publications {#publications}
 
